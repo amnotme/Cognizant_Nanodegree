@@ -1,0 +1,13 @@
+tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/core"
+tap "homebrew/services"
+brew "php", restart_service: true
+brew "composer"
+brew "git"
+brew "htop"
+brew "node", link: false
+brew "nvm"
+brew "yarn"
+brew "zsh"
+cask "google-cloud-sdk"
