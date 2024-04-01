@@ -44,15 +44,15 @@ Super Duper Drive is a cloud storage application developed as part of the Udacit
     │   [JUnit Test Files]
 ```
 #### Super Duper Drive
-![SDD1](SuperDuperDrive1.gif)
+![SDD1](src/SuperDuperDrive1.gif)
 
-![SDD2](SuperDuperDrive2.png)
+![SDD2](src/SuperDuperDrive2.png)
 
-![SDD3](SuperDuperDrive3.gif)
+![SDD3](src/SuperDuperDrive3.gif)
 
-![SDD4](SuperDuperDrive4.gif)
+![SDD4](src/SuperDuperDrive4.gif)
 
-![SDD5](SuperDuperDrive5.gif)
+![SDD5](src/SuperDuperDrive5.gif)
 
 #### Getting Started
 
