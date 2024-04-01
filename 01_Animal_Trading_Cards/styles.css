@@ -1,0 +1,80 @@
+/* resetting all other styles */
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+
+/* This is where the real styling begins */
+
+body {
+  font-size: 14px;
+  line-height: 1.35;
+  padding: 10px;
+}
+h3 {
+  font-size: 1.2em;
+}
+
+img {
+  width: 300px;
+  height: 300px;
+  border-radius: 4% 0 4% 0;
+}
+
+li {
+  list-style: none;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  margin:0;
+  padding:0;
+  border:0;
+}
+
+span {
+  font-weight: bold;
+}
+
+.clear_margin {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.top_paragraph {
+  font-style: italic;
+}
+
+.border {
+  border: 0.5px solid #D4D4D4;
+}
+
+.container {
+  width: 300px;
+  margin: 0px;
+  padding: 10px;
+  box-shadow: 10px 10px 5px lightblue;
+  background-color: #E6DA00;
+}
+
+.text_container {
+  border-radius: 4% 0 4% 0;
+  width: 279px;
+  padding: 10px;
+  background-color: #F8F8F8;
+}
