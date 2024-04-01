@@ -28,6 +28,9 @@ The Pixel Art Maker project is a creative component of the Udacity Front-End Web
 │   style.css
 │   [Project Screenshots and Assets]
 ```
+#### Pixel Art Maker
+
+![Pixel Art Maker](PixelArtMaker.png)
 
 #### Getting Started
 
