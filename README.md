@@ -9,3 +9,4 @@ This is a repository that will house all projects for Udacity_FEND
 4. Hotel Reservation Application [here](https://github.com/amnotme/Udacity_FEND/tree/main/04_Hotel_Reservation)
 5. Parallel Web Crawler [here](https://github.com/amnotme/Udacity_FEND/tree/main/05_Parallel_Web_Crawler)
 6. Super Duper Drive [here](https://github.com/amnotme/Udacity_FEND/tree/main/06_Super_Duper_Drive)
+7. Critter Chronologer [here](https://github.com/amnotme/Udacity_FEND/tree/main/07_Critter_Chronologer)
