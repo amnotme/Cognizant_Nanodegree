@@ -1,0 +1,44 @@
+/* layout.css */
+header {
+    background-color: #f8f9fa;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+}
+
+.author-info, .social-sharing {
+    margin-top: 20px; /* Space after main content */
+}
+
+.author-info img {
+    border-radius: 50%; /* Circular avatar */
+    max-width: 150px; /* Size limit */
+    height: auto; /* Aspect ratio */
+    margin-top: 10px; /* Space after bio */
+}
+
+.social-sharing a {
+    display: inline-block; /* Align links inline */
+    margin-right: 10px; /* Space between links */
+}
+
+.social a {
+    margin-right: 10px;
+}
