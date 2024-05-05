@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>My Super Duper Blog</title>
-
     <link rel="stylesheet" href="css/main.css">
+
 </head>
 <body>
     <!-- Navigation with fake links -->
@@ -25,35 +25,58 @@
         <!-- Blog Post Cards -->
         <section>
             <article class="blog-card">
-                <h2>Blog Post 1</h2>
-                <p><em>Published on April 30, 2024</em></p> <!-- Publishing date -->
-                <p>This blog post delves into the nuances of semantic HTML, explaining how to implement tags such as header, footer, article, and section to create meaningful and accessible webpages.</p> <!-- Content summary -->
-                <p>Tags: <span>#HTML5</span>, <span>#SemanticHTML</span>, <span>#WebDevelopment</span></p> <!-- Tags -->
-                <a href="blog_post_1.html"><button>Read More</button></a> <!-- Link to respective page -->
+                <figure>
+                    <img src="assets/blog1_thumbnail.jpeg" alt="Semantic HTML" />
+                    <figcaption>Semantic HTML</figcaption>
+                </figure>
+                <h2>Blog Post 1: Semantic HTML</h2>
+                <p><u>Published on April 30, 2024</u></p>
+                <p>This blog post delves into the nuances of semantic HTML...</p>
+                <blockquote>"Making HTML more meaningful and accessible enhances the web for everyone."</blockquote>
+                <p>Tags: <span>#HTML5</span>, <span>#SemanticHTML</span>, <span>#WebDevelopment</span></p>
+                <a href="pages/blog_post_1.html"><button>Read More</button></a>
             </article>
 
             <article class="blog-card">
-                <h2>Blog Post 2</h2>
-                <p><em>Published on May 1, 2024</em></p>
+                <figure>
+                    <img src="assets/blog2_thumbnail.jpeg" alt="CSS Separation" />
+                    <figcaption>CSS Separation</figcaption>
+                </figure>
+
+                <h2>Blog Post 2: CSS Separation</h2>
+                <p><u>Published on May 1, 2024</u></p>
                 <p>This post explores the importance of CSS separation from HTML, providing examples and techniques to improve design consistency and maintain a clean structure. Learn how to create reusable stylesheets for typography, layout, and more.</p>
+                <blockquote>"CSS separation not only cleans your HTML documents but also enhances the scalability and maintainability of your web designs."</blockquote>
                 <p>Tags: <span>#CSS</span>, <span>#Styling</span>, <span>#WebDesign</span></p>
-                <a href="blog_post_2.html"><button>Read More</button></a> <!-- Link to respective page -->
+                <a href="pages/blog_post_2.html"><button>Read More</button></a>
             </article>
 
             <article class="blog-card">
-                <h2>Blog Post 3</h2>
-                <p><em>Published on May 2, 2024</em></p>
+                <figure>
+                    <img src="assets/blog3_thumbnail.jpeg" alt="Responsive Design" />
+                    <figcaption>Responsive Design</figcaption>
+                </figure>
+
+                <h2>Blog Post 3: Responsive Design</h2>
+                <p><u>Published on May 2, 2024</u></p>
                 <p>This article covers responsive web design, demonstrating how to create fluid layouts using Flexbox and CSS Grid. Learn how to ensure content remains legible and usable across mobile, tablet, and desktop devices.</p>
+                <blockquote>"Responsive design is not just a trend; it's an essential approach to make the web accessible on any device."</blockquote>
                 <p>Tags: <span>#ResponsiveDesign</span>, <span>#Flexbox</span>, <span>#CSSGrid</span></p>
-                <a href="blog_post_3.html"><button>Read More</button></a> <!-- Link to respective page -->
+                <a href="pages/blog_post_3.html"><button>Read More</button></a> <!-- Link to respective page -->
             </article>
 
             <article class="blog-card">
-                <h2>Blog Post 4</h2>
-                <p><em>Published on May 3, 2024</em></p>
+                <figure>
+                    <img src="assets/blog4_thumbnail.jpeg" alt="Web Accessibility" />
+                    <figcaption>Web Accessibility</figcaption>
+                </figure>
+
+                <h2>Blog Post 4: Web Accessibility</h2>
+                <p><u>Published on May 3, 2024</u></p>
                 <p>Explore the principles of web accessibility in this blog post. Learn about ARIA attributes, sufficient color contrast, and other techniques to create websites that are accessible to all users, including those with disabilities.</p>
+                <blockquote>"Accessibility is not a feature, it is a social trend that ensures everyone has equal access to information and functionality."</blockquote>
                 <p>Tags: <span>#Accessibility</span>, <span>#WebA11y</span>, <span>#Inclusion</span></p>
-                <a href="blog_post_4.html"><button>Read More</button></a> <!-- Link to respective page -->
+                <a href="pages/blog_post_4.html"><button>Read More</button></a>
             </article>
         </section>
 
@@ -63,7 +86,10 @@
             <p><strong>Title:</strong> Senior Full-Stack Developer</p>
             <p><strong>Company:</strong> Intuit LLC</p>
             <p><strong>Bio:</strong> Leo is a software engineer with a passion for web development, particularly in HTML and CSS.</p>
-            <img src="assets/leo.jpeg" alt="Author Leo">
+            <figure>
+                <img src="assets/leo.jpeg" alt="Author Leo">
+                <figcaption>Author: Leo</figcaption>
+            </figure>
         </section>
     </main>
 

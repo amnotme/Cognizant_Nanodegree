@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>Blog Post 1 - My Super Duper Blog</title>
     <!-- Import CSS files -->
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="../css/main.css">
 
 </head>
 <body>
@@ -12,7 +12,7 @@
     <header>
         <nav>
             <ul>
-                <li><a href="index.html">Home</a></li>
+                <li><a href="../index.html">Home</a></li>
                 <li><a href="#">About</a></li>
                 <li><a href="#">Search</a></li>
                 <li><a href="#">Subscribe</a></li>
@@ -23,11 +23,9 @@
     <!-- Main content -->
     <main>
         <article>
-            <h1>Blog Post 1</h1>
-            <p><em>Published on April 30, 2024</em></p>
-
+            <h1>Blog Post 1: Semantic HTML</h1>
+            <p><u>Published on April 30, 2024</u></p>
             <p>This blog post delves into the nuances of semantic HTML, explaining how to implement tags such as &lt;header&gt;, &lt;footer&gt;, &lt;article&gt;, and &lt;section&gt; to create meaningful and accessible webpages.</p>
-
             <p>Tags: <span>#HTML5</span>, <span>#SemanticHTML</span>, <span>#WebDevelopment</span></p>
         </article>
 
@@ -38,7 +36,10 @@
             <p><strong>Title:</strong> Senior Full-Stack Developer</p>
             <p><strong>Company:</strong> Intuit LLC</p>
             <p><strong>Bio:</strong> Leo is a software engineer with a passion for web development, particularly in HTML and CSS.</p>
-            <img src="assets/leo.jpeg" alt="Author Leo">
+            <figure>
+                <img src="../assets/leo.jpeg" alt="Author Leo">
+                <figcaption>Author: Leo</figcaption>
+            </figure>
         </section>
 
         <!-- Social Sharing -->

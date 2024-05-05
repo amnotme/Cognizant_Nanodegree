@@ -1,18 +1,29 @@
-/* General Card Styles */
+/* Styling for the image */
+.blog-card img {
+    max-width: 300px; /* Ensures image scales with its container */
+    height: auto; /* Maintains aspect ratio */
+    border: 2px solid #ccc; /* Light gray border for definition */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    margin: 20px 0; /* Vertical margin to separate from other content */
+}
+
 .blog-card {
+    display: flex; /* Flexbox layout for content alignment */
+    flex-direction: column; /* Stack content vertically */
     background-color: #f2f2f2; /* Light gray background */
     border: 1px solid #ccc; /* Light gray border */
     border-radius: 10px; /* Rounded corners */
     padding: 20px; /* Padding around content */
-    margin-bottom: 20px; /* Space between cards */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
     transition: box-shadow 0.2s ease-in-out; /* Smooth hover effect */
+    margin: 20px 0; /* Vertical margin to separate from other content */
+
 }
 
 .blog-card:hover {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
 }
-
 /* Font Colors */
 .blog-card h2 {
     color: #333; /* Darker color for headings */
@@ -42,3 +53,4 @@
 .blog-card button:hover {
     background-color: #0056b3; /* Darker blue on hover */
 }
+

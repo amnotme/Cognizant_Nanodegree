@@ -4,3 +4,8 @@
 @import url(main_article);
 @import url(nav_footer.css);
 @import url(typography.css);
+
+figcaption {
+    font-size: 12px;
+    margin-bottom: 10px;
+}
