@@ -12,3 +12,4 @@ This is a repository that will house all projects for Udacity_FEND
 7. Critter Chronologer [here](https://github.com/amnotme/Udacity_FEND/tree/main/07_Critter_Chronologer)
 8. Personal Blog [here](https://github.com/amnotme/Udacity_FEND/tree/main/08_Personal_Blog_Website)
 9. Shopping Cart [here](https://github.com/amnotme/Udacity_FEND/tree/main/09_Personal_Shopping_Cart)
+10. Landing Page [here](https://github.com/amnotme/Udacity_FEND/tree/main/10_Landing_Page)
